@@ -4,7 +4,7 @@ object frmMain: TfrmMain
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
   Caption = 'frmMain'
-  ClientHeight = 259
+  ClientHeight = 262
   ClientWidth = 388
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -2376,7 +2376,7 @@ object frmMain: TfrmMain
   end
   object pnlBottom: TPanel
     Left = 0
-    Top = 216
+    Top = 219
     Width = 388
     Height = 43
     Align = alBottom

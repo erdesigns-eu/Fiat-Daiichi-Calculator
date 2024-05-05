@@ -154,9 +154,6 @@ procedure TfrmMain.btnCalculateClick(Sender: TObject);
     end;
   end;
 
-const
-  InvalidSerial: string = 'Invalid';
-
 var
   ErrorMessage: string;
   I: Integer;
@@ -203,9 +200,12 @@ end;
 procedure TfrmMain.btnAboutClick(Sender: TObject);
 const
   AboutText: string =
-    'Fiat Daiichi Mopar Radio Code Calculator' + sLineBreak + sLineBreak +
-    'by Ernst Reidinga - ERDesigns'            + sLineBreak +
-    'Version 1.0 (05/2024)';
+    'Fiat Daiichi Mopar Radio Code Calculator'       + sLineBreak + sLineBreak +
+    'by Ernst Reidinga - ERDesigns'                  + sLineBreak +
+    'Version 1.0 (05/2024)'                          + sLineBreak + sLineBreak +
+    'Usage:'                                         + sLineBreak +
+    'Enter the 5 characters of the serial number'    + sLineBreak +
+    'and press "calculate".';
 begin
   MessageBox(Handle, PChar(AboutText), PChar(Caption), MB_ICONINFORMATION + MB_OK);
 end;
